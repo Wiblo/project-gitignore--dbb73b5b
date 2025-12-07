@@ -1,6 +1,6 @@
 export const businessInfo = {
   // Core business details
-  name: "Practice Name Chiropractic",
+  name: "Dr Matthew Pryce",
   tagline: "Quality chiropractic care in Your City",
   logo: "/logo.png",
 
@@ -66,7 +66,7 @@ export const businessInfo = {
   maps: {
     apiKey: "AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8",
     // Location name for Google Maps searches
-    locationName: "Sticks and Stones Wellness Hub",
+    locationName: "Dr Matthew Pryce",
   },
 }
 

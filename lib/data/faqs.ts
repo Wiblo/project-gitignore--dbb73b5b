@@ -49,7 +49,7 @@ export const faqs: FaqItem[] = [
     id: 'appointment',
     question: 'How do I book an appointment?',
     answer:
-      'You can book an appointment through our online booking system at Sticks and Stones Wellness Hub, call us at 082 940 7129, or email kamilahjordaan@gmail.com. We offer flexible scheduling with appointments available 6 days a week to accommodate your busy lifestyle.',
+      'You can book an appointment through our online booking system, call us at 082 940 7129, or email kamilahjordaan@gmail.com. We offer flexible scheduling with appointments available 6 days a week to accommodate your busy lifestyle.',
   },
   {
     id: 'what-to-wear',

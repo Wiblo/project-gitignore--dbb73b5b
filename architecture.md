@@ -775,7 +775,7 @@ All business data centralized in one location for easy updates.
 ```tsx
 export const businessInfo = {
   // Core business details
-  name: "Practice Name Chiropractic",
+  name: "Dr Matthew Pryce",
   description: "Quality chiropractic care in Your City",
   tagline: "Your path to wellness starts here",
 
