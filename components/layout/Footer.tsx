@@ -157,7 +157,7 @@ export function Footer() {
                     href={social.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-secondary/30 text-sage-dark transition-colors hover:bg-primary hover:text-primary-foreground"
+                    className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-secondary/30 text-turquoise-dark transition-colors hover:bg-primary hover:text-primary-foreground"
                     aria-label={`View ${social.label} page (opens in new tab)`}
                   >
                     <Icon className="h-5 w-5" />
