@@ -61,20 +61,20 @@
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.28 0 0); /* charcoal */
 
-  /* Primary brand color - turquoise */
-  --primary: oklch(0.70 0.10 200); /* turquoise-primary */
-  --primary-foreground: oklch(0.99 0 0); /* white text on turquoise */
+  /* Primary brand color - orange */
+  --primary: oklch(0.68 0.18 45); /* vibrant orange */
+  --primary-foreground: oklch(0.99 0 0); /* white text on orange */
 
-  /* Secondary colors - turquoise-soft for backgrounds */
-  --secondary: oklch(0.83 0.08 200); /* turquoise-soft for subtle backgrounds */
+  /* Secondary colors - soft orange for backgrounds */
+  --secondary: oklch(0.88 0.08 50); /* soft orange for subtle backgrounds */
   --secondary-foreground: oklch(0.28 0 0); /* charcoal text */
 
   /* Muted colors - light backgrounds and warm-gray secondary text */
-  --muted: oklch(0.83 0.08 200); /* turquoise-soft for muted backgrounds */
+  --muted: oklch(0.88 0.08 50); /* soft orange for muted backgrounds */
   --muted-foreground: oklch(0.48 0 0); /* warm-gray #6B6B6B for secondary text */
 
-  /* Accent colors - turquoise accents */
-  --accent: oklch(0.83 0.08 200); /* turquoise-soft */
+  /* Accent colors - orange accents */
+  --accent: oklch(0.88 0.08 50); /* soft orange */
   --accent-foreground: oklch(0.28 0 0); /* charcoal */
 
   /* Destructive colors */
@@ -84,7 +84,7 @@
   /* Border and input colors */
   --border: oklch(0.90 0 0); /* neutral light gray for borders */
   --input: oklch(0.90 0 0); /* neutral light gray */
-  --ring: oklch(0.70 0.10 200); /* turquoise-primary for focus rings */
+  --ring: oklch(0.68 0.18 45); /* orange for focus rings */
 
   /* Chart colors */
   --chart-1: oklch(0.646 0.222 41.116);
@@ -96,15 +96,15 @@
   /* Sidebar colors */
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.65 0.10 200);
+  --sidebar-primary: oklch(0.65 0.16 45);
   --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.95 0.03 200);
+  --sidebar-accent: oklch(0.95 0.05 50);
   --sidebar-accent-foreground: oklch(0.25 0 0);
-  --sidebar-border: oklch(0.90 0.02 200);
-  --sidebar-ring: oklch(0.65 0.10 200);
+  --sidebar-border: oklch(0.90 0.03 50);
+  --sidebar-ring: oklch(0.65 0.16 45);
 
-  /* Custom color for primary hover state - turquoise-dark */
-  --primary-hover: oklch(0.62 0.09 200);
+  /* Custom color for primary hover state - darker orange */
+  --primary-hover: oklch(0.58 0.16 45);
 }
 
 .dark {
@@ -218,8 +218,8 @@
     max-width: 50rem;
   }
 
-  /* Turquoise color utilities for text */
-  .text-turquoise-dark {
-    color: oklch(0.62 0.09 200); /* turquoise-dark */
+  /* Orange color utilities for text */
+  .text-orange-dark {
+    color: oklch(0.58 0.16 45); /* orange-dark */
   }
 }
