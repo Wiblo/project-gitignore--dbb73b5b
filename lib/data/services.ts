@@ -31,7 +31,7 @@ export const services: Service[] = [
     description:
       'Comprehensive first visit including thorough history taking, physical examination, and personalised treatment plan development to address your specific health concerns.',
     duration: '60 min',
-    price: 'R850',
+    price: 'R1000',
     image: '/arm-mobility-assessment.jpeg',
     imageAlt: 'Professional arm mobility assessment during consultation',
     icon: Activity,
@@ -62,7 +62,7 @@ export const services: Service[] = [
     description:
       'Continued care appointments to monitor progress, adjust treatment plans, and provide therapeutic interventions tailored to your healing journey.',
     duration: '30 min',
-    price: 'R650',
+    price: 'R850',
     image: '/spinal-adjustment-treatment.jpeg',
     imageAlt: 'Professional spinal adjustment treatment session',
     icon: Zap,
