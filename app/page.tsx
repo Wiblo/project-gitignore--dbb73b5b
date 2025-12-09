@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <HeroWithImage
         subtitle="Dr. Kamilah Jordaan"
-        title="External change"
+        title="Sports & Family Chiropractic Care"
         backgroundImage="/dr-kamilah-professional-portrait.jpeg"
         backgroundImageAlt="Dr. Kamilah Jordaan - Professional Chiropractor"
         ctaText="Book Your Appointment"
